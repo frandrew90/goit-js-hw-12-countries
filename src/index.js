@@ -4,6 +4,7 @@ import makeCountry from './templates/country.hbs';
 import makeCountries from './templates/countries.hbs';
 import refs from './refs.js';
 import { error } from '@pnotify/core';
+
 import '@pnotify/core/dist/PNotify.css';
 import '@pnotify/core/dist/BrightTheme.css';
 
