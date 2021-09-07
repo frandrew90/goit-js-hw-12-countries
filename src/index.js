@@ -1,4 +1,3 @@
-// import './sass/main.scss';
 import './sass/styles.css';
 import fetchCountries from './fetchCountries.js';
 import makeCountry from './templates/country.hbs';
@@ -7,17 +6,8 @@ import refs from './refs.js';
 import { error } from '@pnotify/core';
 import '@pnotify/core/dist/PNotify.css';
 import '@pnotify/core/dist/BrightTheme.css';
-// import { debounce } from 'lodash';
 
 const debounce = require('lodash.debounce');
-// import { debounce } from lodash;
-
-// console.log(refs);
-// console.log(makeCountries);
-// console.log(fetchCountries);
-// console.log(debounce);
-
-// error({ text: 'eror!' });
 
 refs.inputRef.addEventListener('input', debounce(onInput, 500));
 
